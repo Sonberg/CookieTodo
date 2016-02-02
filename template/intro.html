@@ -1,0 +1,17 @@
+<div class="alert alert-success intro-alert" role="alert">
+    <button type="button" class="close">
+        <span aria-hidden="true" class="close">&times;</span>
+    </button>
+    <h4 class="text-center">Välkommen till din privata att-göra-lista!</h4>
+    <p class="text-center">Det som du lägger till här kommer automatiskt att sparas i din webbläsares cookie-minne<br> och kan endast visas på den här enheten.</p><br>
+    <p class="text-center">Inställningar för tjänsten hittar du i hamburgemenyn längst ner på sidan</p>
+    <p class="text-center">Jag som har byggt denna tjänsten heter Per Sonberg, Tack för mig</p>
+</div>
+<script>
+    // Dölj intro alert
+    $('.close').on('click', function () {
+        $('.intro-alert').slideUp();
+        $('.intro-alert').css({opacity: 0});
+
+    });
+</script>
